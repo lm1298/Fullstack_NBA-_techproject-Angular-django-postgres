@@ -1,1 +1,24 @@
-<div class="placeholder">Place your content here!</div>
+<!-- frontend/src/app/player-summary/player-summary.component.html -->
+<div *ngIf="playerSummary">
+    <h1>{{ playerSummary.player_name }} - {{ playerSummary.team }}</h1>
+    <div *ngFor="let game of playerSummary.games">
+      <h2>Game on {{ game.date }}</h2>
+      <div class="court-container">
+        <svg viewBox="0 0 500 470" class="court">
+          <!-- Court diagram -->
+          <rect x="0" y="0" width="500" height="470" fill="#f5f5f5" stroke="#000" />
+          <circle cx="250" cy="235" r="60" fill="none" stroke="#000" />
+          <line x1="0" y1="235" x2="500" y2="235" stroke="#000" />
+          <rect x="190" y="0" width="120" height="190" fill="none" stroke="#000" />
+          <circle cx="250" cy="235" r="5" fill="#000" />
+  
+          <!-- Shots -->
+          <circle *ngFor="let shot of game.shots"
+                  [attr.cx]="250 + shot.x * 10"
+                  [attr.cy]="235 - shot.y * 10"
+                  r="5"
+                  fill="red" />
+        </svg>
+      </div>
+    </div>
+  </div>
