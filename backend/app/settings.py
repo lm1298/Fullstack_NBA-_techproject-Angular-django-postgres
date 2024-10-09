@@ -94,7 +94,7 @@ DATABASES = {
             'options': '-c search_path=app,public',
         },
         'NAME': 'okc',
-        'USER': 'okcapplicant',
+        'USER': 'okc',
         'PASSWORD': 'thunder',
         'HOST': '127.0.0.1',
         'PORT': '5432',
