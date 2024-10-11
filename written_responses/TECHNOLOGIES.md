@@ -9,7 +9,7 @@
 4. virtualenv - For creating isolated Python environments
 
 ## Frontend:
-1. Angular - As the frontend framework (specifically Angular 12 based on the CLI version)
+1. Angular - As the frontend framework (Angular 12 based on the CLI version)
 2. TypeScript - For type-safe JavaScript development
 3. Node.js - As the JavaScript runtime environment
 4. npm - For package management
