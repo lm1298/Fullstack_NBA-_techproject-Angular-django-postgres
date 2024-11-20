@@ -1,14 +1,4 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/UDc3mhmF)
 
-# OKC Technical Project Deliverable
-
-### Internship Program Disclosures
-
-* You must be eligible to work in the United States to be able to qualify for this internship.
-  
-* The pay for this internship is the greater of your local minimum wage and $13/hour.
-
-* This application is for the purposes of an internship taking place in the Spring, Summer, or Fall of 2025.
 
 ### 1. Backend Engineering
 
@@ -102,8 +92,7 @@ npm start
 The frontend should run on http://localhost:4200/. Visit this address to see the app in your browser.
 
 
-# SUBMISSION.md
-Please fill out the SUBMISSION.md file to ensure we have your name attached to the project.
+
 
 
 # Questions?
