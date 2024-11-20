@@ -91,10 +91,3 @@ npm start
 ```
 The frontend should run on http://localhost:4200/. Visit this address to see the app in your browser.
 
-
-
-
-
-# Questions?
-
-Email datasolutions@okcthunder.com
